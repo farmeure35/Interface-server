@@ -103,13 +103,16 @@
             border: 2px solid #ffffff;
             border-radius: 5px;
         }
-
-        #server-console-viewer {
-            color: rgb(92, 92, 92);
-            max-height: 300px; /* Définir la hauteur maximale de la liste */
-            overflow-y: auto;
+        #file-list{
+            display: block;
+            width: 30%;
+            height: 50%;
+            background-color: lightblue;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
         }
-
         h1 {
             font-size: 6vh;
             margin-top: 1vh;
@@ -156,7 +159,8 @@
                         <!-- Log server -->
                     </ul>
                 </div>
-            </div>
+                <div id="file-list">
+                </div>
         </div>
     </body>
 </html>

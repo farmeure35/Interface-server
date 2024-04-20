@@ -258,4 +258,4 @@ class MinecraftServerManager {
 }
 
 const serverManager = new MinecraftServerManager();
-serverManager.stop
+serverManager.start();
